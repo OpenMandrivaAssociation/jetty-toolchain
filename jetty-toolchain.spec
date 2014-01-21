@@ -8,7 +8,7 @@ License:        ASL 2.0 or EPL
 URL:            http://www.eclipse.org/jetty/
 Source0:        http://git.eclipse.org/c/jetty/org.eclipse.jetty.toolchain.git/snapshot/%{name}-%{version}.tar.bz2
 # rpmlint config file (fedpkg lint will use this)
-Source1:        .rpmlint
+Source1:        jetty-toolchain.rpmlintrc
 BuildArch:      noarch
 
 BuildRequires:  maven-local
